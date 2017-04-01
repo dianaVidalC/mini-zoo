@@ -1,12 +1,17 @@
 body{
+  background-color: #FEF5E7;
+  text-align: center;
+}
+h1{
+  color: white;
   text-align: center;
   font-family: helvetica,sans-serif;
+  text-shadow: 2px 2px 8px #FF0000;
 }
-
 .animal{
-  width: 340px;
-  height: 340px;
-  margin:0;
+  width: 320px;
+  height: 320px;
+  border:1px solid #FF0000;
 }
 .blanco-negro{
   filter: grayscale(100%);
@@ -21,5 +26,9 @@ body{
   filter: sepia(1);
 }
 #select{
+  margin-top: 10px;
   margin-bottom: 10px;
+  box-shadow: 3px 3px 1px 1px #FF0000;
+  border-radius: 5px;
+
 }
